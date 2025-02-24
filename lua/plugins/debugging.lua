@@ -17,7 +17,7 @@ return {
         commented = true, -- Show virtual text alongside comment
       })
 
-      dap_python.setup("c:/users/adam_/.virtualenvs/debugpy/scripts/python")
+      dap_python.setup("python")
 
       vim.fn.sign_define("DapBreakpoint", {
         text = "",
